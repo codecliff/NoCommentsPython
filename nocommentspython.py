@@ -1,12 +1,12 @@
 #####################################################################
 # Author    	: Rahul Singh
 # URL       	: https://github.com/codecliff/NoCommentsPython
-# License   	: MIT 
+# License   	: CC 
 # email     	: codecliff@users.noreply.github.com
 # Disclaimer	: No warranties, stated or implied.   
 # Description 	: A tool to remove comments and docstrings from python scripts 
 # 		  Functional part is borrowed from code by dan-mcdougall on stackoverflow
-#                 Directory recursion and minor formatting features are added by this project
+#         Directory recursion, param handling and minor formatting features are added by this project
 #####################################################################
 
 import os, sys, io, tokenize, re
