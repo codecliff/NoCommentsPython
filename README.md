@@ -3,9 +3,10 @@ A python script to remove comments from python scripts, with directory recursion
 
 ## Features
   1. Removes comments and docstrings
-  2. Can handle all files in a given directory
-  3. Can attach a predefined header text to each output   
-  4. Non destructive - writes output to a separate file
+  2. Removes blank lines
+  3. Can handle all files in a given directory
+  4. Can attach a predefined header text to each output   
+  5. Non destructive - writes output to a separate file
 
 ## How to use : 
 
