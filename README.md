@@ -22,14 +22,18 @@ A python script to remove comments from python scripts, with directory recursion
     
     This will create an output file `inputfile.py_sanscomments.py` in the same directory as input file
    
-
-3. **(Optional) Specify a header file to insert at the top of output file**
+3. **(Optional) Retain header section** 
+   
+    `python nocommentspython.py -i /path/to/inputfile.py -k yes`       
+        
+   
+4. **(Optional) Specify a header file to insert at the top of output file**
       (Say, for copyright and licenses)
      
      `python nocommentspython.py -i /path/to/inputfile.py -c /path/to/headerfile.txt`
             
 
-4. **Strip all files in a directory :**
+5. **Process all files in a directory :**
    
     `python nocommentspython.py -i /path/to/directory`  
     
@@ -44,6 +48,7 @@ A python script to remove comments from python scripts, with directory recursion
 > This is specially helpful for processing directories (see above).
 
 
+&copy; Rahul Singh 
 
      
  
