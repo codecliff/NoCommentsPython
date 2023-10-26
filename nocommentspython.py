@@ -109,7 +109,7 @@ def main():
     parser = argparse.ArgumentParser(description='A tool to strip all comments and docstrings from python files',
                              epilog="See above for directories and header files")
     parser.add_argument('--infile', '-i', help="File to strip. If a directory, all files in it will be processed", type= str)
-    parser.add_argument('--keepheader', '-k', help="Keep in-file comment header if present", 
+    parser.add_argument('--keepheader', '-k', help="Keep in-file comment header if present [yes, true or 1 ]. default no", 
                         type=lambda x: x in ['true', 'yes', '1'] , default= 'no')
     
     parser.add_argument('--copyrightfile', '-c', help="(optional) A file with header text to insert in the output.\n\
